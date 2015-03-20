@@ -47,3 +47,10 @@ group :development, :test do
   gem 'spring'
 end
 
+# to handle background jobs
+gem 'sidekiq', '~> 3.3.3'
+
+# to upload images
+gem 'carrierwave'
+
+gem "mini_magick"
